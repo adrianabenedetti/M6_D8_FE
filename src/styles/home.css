@@ -1,0 +1,82 @@
+#root {
+  background-color: rgb(246, 247, 247);
+  color: #303030;
+}
+
+#root > nav > div:nth-child(1) > span {
+  color: rgb(76, 35, 146);
+  margin-left: -209px;
+  font-size: 2.00rem;
+  font-weight: bold;
+}
+
+#root > nav > div:nth-child(2) > a {
+  color: rgb(76, 35, 146);
+  margin-left: -381px;
+}
+
+#root > nav > div:nth-child(2) > a:hover {
+  color: #303030
+}
+
+#root > footer > div > div > div > ul > li {
+  color: rgb(76, 35, 146);
+  list-style: none;
+  margin-top: 45px;
+}
+
+#root > footer {
+  margin-left: 129px;
+}
+
+#root > nav {
+  margin-top: 25px;
+  margin-bottom: 21px;
+  width: 1170px;
+}
+
+#root > hr {
+  color: rgb(76, 35, 146);
+  margin-bottom: 60px;
+  
+}
+
+#root > nav > div {
+  display: flex;
+  width: 142px;
+}
+
+#root > nav > div:nth-child(4) > span {
+  color: rgb(76, 35, 146);
+  font-weight: bold;
+  margin-left: -420px;
+}
+
+/* Menù tendina post per page */
+#root > nav > select {
+  border-radius: 8px;
+  width: 35px;
+  background-color: rgb(76, 35, 146);
+  color: white;
+  margin-left: -380px;
+}
+
+/* Dropdown profilo utente */
+#basic-nav-dropdown {
+  color: rgb(76, 35, 146)
+}
+
+/* Img profilo utente */
+#basic-nav-dropdown > img {
+  border-radius: 35px;
+}
+
+/* Btn add new post */
+#root > nav > button {
+  margin-right: -170px;
+  background-color: rgb(76, 35, 146);
+  border-color: rgb(52, 49, 57);
+}
+
+
+
